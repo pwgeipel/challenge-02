@@ -128,8 +128,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
+.content img {
+    max-height: 200px;
+}
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -139,9 +141,13 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -154,7 +160,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 footer {
     padding: 30px;
@@ -164,6 +170,6 @@ footer {
     display: none;
 }
 
-h2 {
+footer h2 {
     font-size: 20px;
 }
