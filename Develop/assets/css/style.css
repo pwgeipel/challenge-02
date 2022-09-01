@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed <div> to <header>; adjusted selector on stylesheet */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +24,7 @@ h1 .seo {
     color: #d9dcd6;
 }
 
+/* Created <nav> header on html; adjusted selector on stylesheet */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -86,7 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated .benefit-lead, .benefit-brand, and .benefit-cost into .benefit-sub */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +103,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Consolidated .search-enging-optimization, .online-reputation-management, and .social-media-marketing into .content-sub */
 .content-sub {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,12 +117,12 @@ p {
 .content img {
     max-height: 200px;
 }
-
+/* Consolidated h2 elements into .content h2 */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Renamed <div> to <footer>; adjusted selector on stylesheet */
 footer {
     padding: 30px;
     clear: both;
